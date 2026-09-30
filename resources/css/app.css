@@ -1,0 +1,19 @@
+
+/* RESET GENERAL - Limpia cualquier borde de prueba anterior */
+* {
+    border: none;
+    box-shadow: none;
+    outline: none;
+}
+
+/* Estilos base para que Vite compile correctamente */
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Transiciones suaves para los botones */
+.btn, .nav-link {
+    transition: all 0.3s ease;
+}
